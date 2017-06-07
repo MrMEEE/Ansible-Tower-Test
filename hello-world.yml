@@ -6,4 +6,4 @@
     copy: content="hello world\n" dest=/tmp/testfile.txt
   - name: Hello Message
     debug: 
-     msg: "Hello World!"
+      msg: "Hello World!"
