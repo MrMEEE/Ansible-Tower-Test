@@ -3,7 +3,9 @@
   hosts: all
   tasks:
   - name: Create a file called 'c:\testfile.txt' with the content 'hello world'.
-    win_copy: content="hello world\n" dest=c:\testfile.txt
+    win_copy: 
+      content="hello world" 
+      dest=c:\testfile.txt
   - name: Hello Message
     debug: 
       msg: "Hello World!"
