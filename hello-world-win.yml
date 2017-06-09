@@ -5,7 +5,7 @@
   - name: Create a file called 'c:\testfile.txt' with the content 'hello world'.
     win_copy: 
       content="hello world" 
-      dest="c:\testfile.txt"
+      dest=c:\\testfile.txt
   - name: Hello Message
     debug: 
       msg: "Hello World!"
